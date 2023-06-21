@@ -17,6 +17,7 @@ module.exports = {
       },
       fontFamily: {
         iranSans: ["Iran-Sans"],
+        yekkan : ["yekkan"]
       },
     },
   },

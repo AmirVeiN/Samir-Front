@@ -20,6 +20,10 @@
   font-family: Iran-Sans;
   src: url("../../public/fonts/Iranian-Sans.ttf") format("truetype");
 }
+@font-face {
+  font-family: yekkan;
+  src: url("../../public/fonts/Yekan-Bakh-Regular.ttf") format("truetype");
+}
 
 body {
   color: rgb(var(--foreground-rgb));

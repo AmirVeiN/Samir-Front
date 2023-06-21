@@ -10,7 +10,7 @@ import { BsArrowLeftCircle } from "react-icons/bs";
 import { MdOutlineAssuredWorkload } from "react-icons/md";
 import NavBar from "@/components/navBar";
 import ParticlesBackground from "@/components/particle/particleBackground";
-import Image from "next/image";
+import img from "next/image";
 import Footer from "@/components/footer";
 
 export default function Item() {
@@ -77,7 +77,7 @@ export default function Item() {
               </button>
             </div>
             <div className="w-1/2 h-full ">
-              <Image
+              <img
                 className=" w-full"
                 src={`/${item.image}.png`}
                 alt="loading"

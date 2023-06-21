@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import { useAppSelector } from "../../store/hooks";
 import NavBar from "@/components/navBar";
 import ParticlesBackground from "@/components/particle/particleBackground";
-import Image from "next/image";
+import img from "next/image";
 import { RiComputerLine } from "react-icons/ri";
 import { RiCpuLine } from "react-icons/ri";
 import { BsMotherboardFill } from "react-icons/bs";
@@ -27,7 +27,7 @@ export function ComponentItems(props: {
       className="h-96 justify-around border-t-2 rounded-md border-main items-center w-[23rem] flex flex-col bg-two"
     >
       <div>
-        <Image src={`/${props.image}.png`} alt="" width={200} height={200} />
+        <img src={`/${props.image}.png`} alt="" width={200} height={200} />
       </div>
       <div className="flex justify-center items-center flex-row space-x-1">
         <p>تومان</p>

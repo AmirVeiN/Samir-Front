@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+import img from "next/image";
 import { FaShoppingCart } from "react-icons/fa";
 import { MdManageAccounts } from "react-icons/md";
 import { CgPhone } from "react-icons/cg";
@@ -33,7 +33,7 @@ export function ItemsC(props: {
       className="justify-around border-t-2 h-96  rounded-md border-main items-center w-[23rem] flex flex-col bg-two"
     >
       <div>
-        <Image src={`/${props.image}.png`} alt="" width={200} height={200} />
+        <img src={`/${props.image}.png`} alt="" width={200} height={200} />
       </div>
       <div className="flex justify-center items-center flex-row space-x-1">
         <p>تومان</p>
@@ -152,7 +152,7 @@ export default function NavBar() {
               </button>
               <div className="hidden peer-hover:flex hover:flex absolute inset-12 left-0 flex-row h-96 p-5 w-full border justify-center items-center border-main border-t-4 border-r-0 border-l-0 border-b-0 bg-two rounded-xl drop-shadow-lg">
                 <div className="h-full w-1/3">
-                  <Image
+                  <img
                     src={"/mb.png"}
                     alt="Loading..."
                     width={400}
@@ -222,7 +222,7 @@ export default function NavBar() {
               </button>
               <div className="hidden peer-hover:flex hover:flex absolute inset-12 left-0 flex-row h-96 p-5 w-full border justify-center items-center border-main border-t-4 border-r-0 border-l-0 border-b-0 bg-two rounded-xl drop-shadow-lg">
                 <div className="h-full w-1/3">
-                  <Image
+                  <img
                     src={"/pc5.png"}
                     alt="Loading..."
                     width={400}
@@ -327,7 +327,7 @@ export default function NavBar() {
               </button>
               <div className="hidden peer-hover:flex hover:flex absolute inset-12 left-0 flex-row h-96 p-5 w-full border justify-center items-center border-main border-t-4 border-r-0 border-l-0 border-b-0 bg-two rounded-xl drop-shadow-lg">
                 <div className="h-full w-1/3">
-                  <Image
+                  <img
                     src={"/laptap3.png"}
                     alt="Loading..."
                     width={400}

@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+import img from "next/image";
 import { BsLaptop } from "react-icons/bs";
 import ParticlesBackground from "@/components/particle/particleBackground";
 import { useRouter } from "next/router";
@@ -39,22 +39,31 @@ export default function MainPage() {
               محبوب ترین دسته بندی ها
             </p>
             <div className="flex flex-row space-x-3 justify-end">
-              <button onClick={() => router.push("/listItem/دانش جویی")} className="p-2 bg-main font-bold rounded-md shadow-sm shadow-white">
+              <button
+                onClick={() => router.push("/listItem/دانش جویی")}
+                className="p-2 bg-main font-bold rounded-md shadow-sm shadow-white"
+              >
                 کامپیوتر دانشجویی
               </button>
-              <button onClick={() => router.push("/listItem/گیمینگ")} className="p-2 bg-main font-bold rounded-md shadow-sm shadow-white">
+              <button
+                onClick={() => router.push("/listItem/گیمینگ")}
+                className="p-2 bg-main font-bold rounded-md shadow-sm shadow-white"
+              >
                 کیس گیمینگ
               </button>
-              <button onClick={() => router.push("/listItem/رندرینگ")} className="p-2 bg-main font-bold rounded-md shadow-sm shadow-white">
+              <button
+                onClick={() => router.push("/listItem/رندرینگ")}
+                className="p-2 bg-main font-bold rounded-md shadow-sm shadow-white"
+              >
                 سیستم رندرینگ
               </button>
             </div>
           </div>
         </div>
-        <Image src={"/main7.png"} alt="Loading..." width={600} height={600} />
+        <img src={"/main7.png"} alt="Loading..." width={600} height={600} />
       </div>
       <div className="flex flex-row space-x-4 items-center">
-        <Image src={"/lap3.png"} alt="Loading..." width={600} height={600} />
+        <img src={"/lap3.png"} alt="Loading..." width={600} height={600} />
         <div className="flex flex-col space-y-8">
           <div className="text-main font-bold text-5xl flex justify-end">
             خرید انواع لپ تاپ
@@ -93,13 +102,16 @@ export default function MainPage() {
             قطعات ما بیابید و خریداری کنید
           </p>
           <div className="flex justify-end">
-            <button onClick={()=> router.push("/access")} className="bg-main w-fit shadow-sm shadow-white p-3 rounded-xl flex flex-row justify-center items-center space-x-3">
+            <button
+              onClick={() => router.push("/access")}
+              className="bg-main w-fit shadow-sm shadow-white p-3 rounded-xl flex flex-row justify-center items-center space-x-3"
+            >
               <p>قیمت قطعات و لوازم جانبی</p>
               <BsLaptop className="text-xl" />
             </button>
           </div>
         </div>
-        <Image src={"/game2.png"} alt="Loading..." width={600} height={600} />
+        <img src={"/game2.png"} alt="Loading..." width={600} height={600} />
       </div>
       <div className="flex flex-col space-y-8 justify-center items-center">
         <div className="text-main font-bold text-5xl flex justify-center">
@@ -114,12 +126,7 @@ export default function MainPage() {
           کیفیت به شما هستیم
         </p>
         <div className="flex flex-row -space-x-36">
-          <Image
-            src={"/parche.png"}
-            alt="Loading..."
-            width={300}
-            height={300}
-          />
+          <img src={"/parche.png"} alt="Loading..." width={300} height={300} />
           <div className="flex flex-col space-y-6">
             <p className="font-bold text-xl text-right">تماس با ما</p>
             <p className="font-bold text-2xl text-right text-main">

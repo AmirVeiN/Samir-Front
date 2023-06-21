@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+import img from "next/image";
 import { BsPhone } from "react-icons/bs";
 import { BiTimeFive } from "react-icons/bi";
 import { MdLocationOn } from "react-icons/md";
@@ -35,7 +35,7 @@ export default function Footer() {
         <div className="flex justify-between items-start pt-2 flex-row w-[80%]">
           <div className="flex w-[30%] space-x-2 p-2 ">
             <div className="flex   border-2 rounded-xl ">
-              <Image
+              <img
                 className="bg-main/25 rounded-xl  space-x-2 "
                 src={"/enamad.png"}
                 alt="loading.."
@@ -44,7 +44,7 @@ export default function Footer() {
               />
             </div>
             <div className="flex  border-2 rounded-xl">
-              <Image
+              <img
                 className="bg-main/25 rounded-xl  space-x-2 "
                 src={"/neshan.png"}
                 alt="loading.."

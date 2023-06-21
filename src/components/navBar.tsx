@@ -30,7 +30,7 @@ export function ItemsC(props: {
   return (
     <button
       onClick={() => router.push(`/items/${props.id}`)}
-      className="h-96 justify-around border-t-2 rounded-md border-main items-center w-[23rem] flex flex-col bg-two"
+      className="justify-around border-t-2 h-96  rounded-md border-main items-center w-[23rem] flex flex-col bg-two"
     >
       <div>
         <Image src={`/${props.image}.png`} alt="" width={200} height={200} />
@@ -67,7 +67,6 @@ export function ItemsC(props: {
     </button>
   );
 }
-
 
 export default function NavBar() {
   const router = useRouter();
